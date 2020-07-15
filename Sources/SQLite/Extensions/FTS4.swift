@@ -192,6 +192,10 @@ open class FTSConfig {
         }
         return self
     }
+    
+    public init() {
+        // empty
+    }
 
     /// [Tokenizers](https://www.sqlite.org/fts3.html#tokenizer)
     open func tokenizer(_ tokenizer: Tokenizer?) -> Self {
